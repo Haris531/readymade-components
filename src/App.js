@@ -1,10 +1,21 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import MainPage from './pages/MainPage';
+import AllNavbars from './pages/AllNavbars';
+import AllHeroSections from './pages/AllHeroSections';
+
 
 function App() {
   return (
     <>
-    <h1 className='text-3xl text-blue-500 font-semibold'>hello world</h1>
+     <BrowserRouter>
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path='all-navbars' element={<AllNavbars />} />
+        <Route path='all-heros' element={<AllHeroSections />} />
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
