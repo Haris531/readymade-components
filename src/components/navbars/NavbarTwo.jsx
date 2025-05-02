@@ -3,15 +3,10 @@ import React from 'react'
 export default function NavbarTwo() {
   return (
     <>
-    <header class="shadow-md tracking-wide relative z-50">
-      <section class="py-2 bg-[#007bff] text-white text-right px-10">
-        <p class="text-sm"><span class="mx-3 font-semibold">Address:</span>SWF New York 185669<span class="mx-3 font-semibold">Contact
-          No:</span>1800333665</p>
-      </section>
-
-      <div class="flex flex-wrap items-center justify-between gap-4 px-10 py-3 bg-white min-h-[65px]">
-        <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-36" />
-        </a>
+      <header class="flex shadow-md py-4 px-4 sm:px-10 bg-white min-h-[70px] tracking-wide border border-red-700 relative z-50">
+      <div class="flex flex-wrap items-center justify-between gap-5 w-full">
+        <a href="javascript:void(0)" class="max-sm:hidden"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-36" /></a>
+        <a href="javascript:void(0)" class="hidden max-sm:block"><img src="https://readymadeui.com/readymadeui-short.svg" alt="logo" class="w-9" /></a>
 
         <div id="collapseMenu"
           class="max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50">
@@ -27,37 +22,40 @@ export default function NavbarTwo() {
           </button>
 
           <ul
-            class="lg:flex lg:gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
+            class="lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
             <li class="mb-6 hidden max-lg:block">
               <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-36" />
               </a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3">
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3">
               <a href='javascript:void(0)'
                 class="hover:text-blue-700 text-blue-700 block font-medium text-[15px]">Home</a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3"><a href='javascript:void(0)'
               class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">Team</a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3"><a href='javascript:void(0)'
               class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">Feature</a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3"><a href='javascript:void(0)'
               class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">Blog</a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3"><a href='javascript:void(0)'
               class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">About</a>
             </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
+            <li class="max-lg:border-b max-lg:border-gray-300 max-lg:py-3 px-3"><a href='javascript:void(0)'
               class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">Contact</a>
-            </li>
-            <li class="max-lg:border-b max-lg:py-3 px-3"><a href='javascript:void(0)'
-              class="hover:text-blue-700 text-slate-900 block font-medium text-[15px]">Source</a>
             </li>
           </ul>
         </div>
 
-        <div class="flex max-lg:ml-auto">
+        <div class="flex max-lg:ml-auto space-x-4">
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium tracking-wide text-slate-900 border border-gray-400 bg-transparent hover:bg-gray-50 transition-all">Login</button>
+          <button
+            class="px-4 py-2 text-sm rounded-full font-medium tracking-wide text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all">Sign
+            up</button>
+
           <button id="toggleOpen" class="lg:hidden">
             <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"

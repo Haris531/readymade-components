@@ -5,10 +5,10 @@ import NavbarTwo from '../components/navbars/NavbarTwo'
 export default function AllNavbars() {
     return (
         <>
-            <div className='py-4'>
+            <div className='py-4 bg-slate-300'>
                 <div className='space-y-4'>
                     <div><NavbarOne /></div>
-                    {/* <div><NavbarTwo /></div> */}
+                    <div><NavbarTwo /></div>
                 </div>
             </div>
         </>
