@@ -1,6 +1,7 @@
 import React from 'react'
 import NavbarOne from '../components/navbars/NavbarOne'
 import NavbarTwo from '../components/navbars/NavbarTwo'
+import NavbarThree from '../components/navbars/NavbarThree'
 
 export default function AllNavbars() {
     return (
@@ -9,6 +10,8 @@ export default function AllNavbars() {
                 <div className='space-y-4'>
                     <div><NavbarOne /></div>
                     <div><NavbarTwo /></div>
+                    <div><NavbarThree /></div>
+
                 </div>
             </div>
         </>
