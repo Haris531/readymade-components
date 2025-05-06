@@ -8,7 +8,7 @@ import { IoMdSettings } from "react-icons/io";
 export default function NavbarFour() {
     return (
         <>
-            <nav className='bg-blue-300 px-6 py-2'>
+            <nav className='bg-blue-500 px-6 py-2'>
                 <div className='flex justify-between items-center'>
                     <div>
                         <a href="#">
@@ -16,25 +16,25 @@ export default function NavbarFour() {
                         </a>
                     </div>
                     <div className='flex space-x-8 '>
-                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 rounded'>
-                            <IoMdHome className='text-gray-700 text-xl hover:text-blue-600' />
-                            <a href="" className='text-gray-700 font-medium hover:text-blue-600'>Home</a>
+                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 group rounded'>
+                            <IoMdHome className='text-gray-700 text-xl group-hover:text-blue-600 ' />
+                            <a href="" className='text-gray-700 font-medium group-hover:text-blue-600'>Home</a>
                         </div>
-                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 rounded'>
-                            <MdDashboardCustomize className='text-gray-700 text-xl hover:text-blue-600' />
-                            <a href="" className='text-gray-700 font-medium hover:text-blue-600'>Dashboard</a>
+                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 group rounded'>
+                            <MdDashboardCustomize className='text-gray-700 text-xl group-hover:text-blue-600' />
+                            <a href="" className='text-gray-700 font-medium group-hover:text-blue-600'>Dashboard</a>
                         </div>
-                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 rounded'>
-                            <FcAbout className='text-gray-700 text-xl hover:text-blue-600' />
-                            <a href="" className='text-gray-700 font-medium hover:text-blue-600'>About</a>
+                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 group rounded'>
+                            <FcAbout className='text-gray-700 text-xl group-hover:text-blue-600' />
+                            <a href="" className='text-gray-700 font-medium group-hover:text-blue-600'>About</a>
                         </div>
-                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 rounded'>
-                            <CgProfile className='text-gray-700 text-xl hover:text-blue-600' />
-                            <a href="" className='text-gray-700 font-medium hover:text-blue-600'>Profile</a>
+                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 group rounded'>
+                            <CgProfile className='text-gray-700 text-xl group-hover:text-blue-600' />
+                            <a href="" className='text-gray-700 font-medium group-hover:text-blue-600'>Profile</a>
                         </div>
-                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 rounded'>
-                            <IoMdSettings className='text-gray-700 text-xl hover:text-blue-600' />
-                            <a href="" className='text-gray-700 font-medium hover:text-blue-600'>Setting</a>
+                        <div className='flex flex-col items-center space-x-2 p-2 hover:bg-gray-100 group rounded'>
+                            <IoMdSettings className='text-gray-700 text-xl group-hover:text-blue-600' />
+                            <a href="" className='text-gray-700 font-medium group-hover:text-blue-600'>Setting</a>
                         </div>
                     </div>
                     <div className="flex space-x-4">
