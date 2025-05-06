@@ -11,7 +11,6 @@ export default function AllNavbars() {
                     <div><NavbarOne /></div>
                     <div><NavbarTwo /></div>
                     <div><NavbarThree /></div>
-
                 </div>
             </div>
         </>
