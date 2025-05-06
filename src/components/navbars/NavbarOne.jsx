@@ -25,7 +25,7 @@ export default function NavbarOne() {
             <a href="#" className="hover:text-blue-600">Features</a>
             <a href="#" className="hover:text-blue-600">Blog</a>
           </div>
-          <div className="hidden sm:flex space-x-4">
+          <div className="flex space-x-4">
             <button className="px-4 py-2 text-sm font-semibold text-black border border-gray-500 rounded-full hover:bg-blue-50">Login</button>
             <button className="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700">Sign up</button>
           </div>
