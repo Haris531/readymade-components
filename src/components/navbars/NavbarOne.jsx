@@ -35,7 +35,6 @@ export default function NavbarOne() {
             </h1>
           </div>
         </div>
-        {/* <div className={`${showNav ? "bg-red-800" : "hidden"} `}> */}
           <div className={`${showNav ? "flex" : "hidden"} transition-all duration-300 flex-col items-start gap-2 bg-white w-full shadow-md absolute right-0 text-black`}>
             <a href="#" className="hover:text-blue-600 border-b border-slate-500 w-full px-2">Home</a>
             <a href="#" className="hover:text-blue-600 border-b border-slate-500 w-full px-2">About</a>
@@ -44,7 +43,6 @@ export default function NavbarOne() {
             <a href="#" className="hover:text-blue-600 border-b border-slate-500 w-full px-2">Features</a>
             <a href="#" className="hover:text-blue-600 px-2">Blog</a>
           </div>
-        {/* </div> */}
       </header>
 
     </>
