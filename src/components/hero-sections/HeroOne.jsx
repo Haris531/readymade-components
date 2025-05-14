@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroOne() {
   return (
     <>
-    <section className="bg-white">
+    <section className="bg-yellow-50">
       <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col md:flex-row gap-12 items-center">
         <div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
