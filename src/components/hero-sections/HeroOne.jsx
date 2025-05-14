@@ -4,12 +4,12 @@ export default function HeroOne() {
   return (
     <>
     <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row gap-12 items-center">
+      <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col md:flex-row gap-12 items-center">
         <div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
             Elevate Your Brand <br /> with Stunning Web Design
           </h1>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-sm md:text-lg text-gray-600 mb-8">
             We create responsive, beautiful, and user-friendly websites that help your business grow. Let's build something great together.
           </p>
           <div className="flex flex-wrap gap-4">
