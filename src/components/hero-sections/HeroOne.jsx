@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroOne() {
   return (
     <>
-    <section className="bg-yellow-50">
+    <section className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col md:flex-row gap-12 items-center">
         <div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
@@ -16,14 +16,14 @@ export default function HeroOne() {
             <a href="#contact" className="px-6 py-3 bg-blue-600 text-white rounded-2xl font-medium hover:bg-blue-700 transition">
               Get Started
             </a>
-            <a href="#portfolio" className="px-6 py-3 border border-gray-300 text-gray-700  rounded-2xl hover:bg-gray-100  transition">
+            <a href="#portfolio" className="px-6 py-3 border border-gray-300 text-gray-700  rounded-2xl hover:bg-blue-600 hover:text-white  transition duration-300">
               View Portfolio
             </a>
           </div>
         </div>
         <div className="w-full">
           <img src="https://plus.unsplash.com/premium_photo-1746718186768-95b366cc69ad?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Hero" className="w-full h-auto rounded-2xl shadow-xl"/>
+            alt="Hero" className="test rounded-2xl shadow-xl"/>
         </div>
       </div>
     </section>
