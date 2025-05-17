@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroThree() {
     return (
         <>
-            <section className="bg-black ">
+            <section className="bg-black">
                 <div className="flex flex-col justify-center items-center w-full min-h-screen">
                     <div className="mb-8 text-center">
                         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl  font-bold mb-4">

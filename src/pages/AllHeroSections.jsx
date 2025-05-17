@@ -6,7 +6,7 @@ import HeroThree from '../components/hero-sections/HeroThree'
 export default function AllHeroSections() {
   return (
     <>
-      <div className=''>
+      <div className='dark:bg-white bg-black'>
         <div className='space-y-4'>
           <div><HeroOne /></div>
           <div><HeroTwo /></div>
