@@ -13,8 +13,35 @@ export default function HeroFour() {
                             Sign up for free
                         </button>
                     </div>
-                    <div>
-                        <div className="w-72 p-4 border border-gray-200 rounded-2xl">
+                    <div className='mt-6 flex flex-row'>
+                        <div className="w-72 p-4 border border-gray-50 ">
+                            <div className="w-8 h-8  text-blue-600  flex items-center">
+                                <FiInfo className="w-6 h-6" />
+                            </div>
+                            <h2 className="text-lg font-semibold text-white">Card Title</h2>
+                            <p className="text-gray-600">
+                                This is a card component using a React icon, heading, and paragraph.
+                            </p>
+                        </div>
+                          <div className="w-72 p-4 border border-gray-50 ">
+                            <div className="w-8 h-8  text-blue-600  flex items-center">
+                                <FiInfo className="w-6 h-6" />
+                            </div>
+                            <h2 className="text-lg font-semibold text-white">Card Title</h2>
+                            <p className="text-gray-600">
+                                This is a card component using a React icon, heading, and paragraph.
+                            </p>
+                        </div>
+                          <div className="w-72 p-4 border border-gray-50 ">
+                            <div className="w-8 h-8  text-blue-600  flex items-center">
+                                <FiInfo className="w-6 h-6" />
+                            </div>
+                            <h2 className="text-lg font-semibold text-white">Card Title</h2>
+                            <p className="text-gray-600">
+                                This is a card component using a React icon, heading, and paragraph.
+                            </p>
+                        </div>
+                          <div className="w-72 p-4 border border-gray-50 ">
                             <div className="w-8 h-8  text-blue-600  flex items-center">
                                 <FiInfo className="w-6 h-6" />
                             </div>
