@@ -114,8 +114,14 @@ export default function MapProduct() {
                                         )
                                     }
                                 </div>
-                                <div>
-                                    <span className='font-semibold'>Price:</span> {item.price.original}
+                                <div className=''>
+                                    <div className='font-semibold'>Price: <span className='line-through'>${item.price.original}</span></div>
+                                    {
+                                        item.price.discount && (
+<div className='font-semibold'>Discount price: <span className=''>${item.price.original - (item.price.discount*item.price.original / 100)}</span></div>
+                                        )
+                                    }
+                                    
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <span className='font-semibold'>Instock:</span> {item.inStock == true ? <><div className='bg-green-500 px-1.5 py-1.5 rounded-full'></div></> : <><div className='bg-red-500 px-1.5 py-1.5 rounded-lg'></div></>}
@@ -131,9 +137,24 @@ export default function MapProduct() {
                                 </div>
                                 <div>
                                     {
-                                        item.reviews && (
+                                        item.reviews?.length > 0 && (
                                             <>
-                                                <span>Reviews:</span> {item.reviews?.user}
+                                                <span>Reviews:</span> {
+                                                    item.reviews.map((item) => (
+                                                        <>
+                                                        <div>
+                                                            {item.user} 
+                                                        </div>
+                                                        <div> 
+                                                            {
+                                                          item.comment && (
+                                                          `comments ${item.comment} on this product`  
+                                                          )
+                                                        }
+                                                        </div>
+                                                       </>
+                                                    ))
+                                                }
                                             </>
                                         )
                                     }
