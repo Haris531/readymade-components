@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductCard2 from '../product-cards/ProductCard2';
 
 export default function MapCard() {
 
@@ -60,28 +61,7 @@ export default function MapCard() {
                 {
                     peopleData.map((item) => {
                         return (
-                            <div className='border-2 border-red-500 p-4 '>
-                                <div>
-                                    Name: {item.name}
-                                </div>
-                                <div className='flex justify-between items-center'>
-                                    Isactive: {item.isActive === true ? <><div className='bg-green-500 text-white p-1.5 rounded-lg'>Yes</div></> : <><div className='bg-red-500 text-white'>No</div></>}
-                                </div>
-                                <div>
-                                    {
-                                        item.address && (
-                                            <>
-                                                Address: {item.address?.city}
-                                            </>
-                                        )
-                                    }
-
-                                </div>
-                                <div>
-                                    Hobbies: {item.hobbies.length>0 ? "yes " : "no"}
-                                </div>
-
-                            </div>
+                           <ProductCard2 cardData={item} />
                         )
 
                     })

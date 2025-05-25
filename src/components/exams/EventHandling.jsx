@@ -29,7 +29,7 @@ export default function EventHandling() {
             </div>
 
             <div className="text-center space-y-2 bg-white shadow-md p-6 rounded">
-                <h1 className="text-xl font-semibold text-gray-800">Hello, {name}</h1>
+                <h1 className="text-xl font-semibold text-gray-800">Name: Hello, {name}</h1>
                 <h1 className="text-lg text-gray-600">Roll No: {roll}</h1>
                 <button className="mt-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition" onClick={handleChange}>
                     Change

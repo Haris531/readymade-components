@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductCard from '../product-cards/ProductCard';
 
 export default function MapProduct() {
     const productsData = [
@@ -98,68 +99,7 @@ export default function MapProduct() {
                 {
                     productsData.map((item) => {
                         return (
-                            <div className='border-2 border-green-500 rounded-lg w-72 space-y-2 p-4 hover:bg-black hover:text-white'>
-                                <div>
-                                    <span className='font-semibold'>Id:</span> {item.id}
-                                </div>
-                                <div>
-                                    <span className='font-semibold'>Name:</span> {item.name}
-                                </div>
-                                <div>
-                                    {
-                                        item.category && (
-                                            <>
-                                                <span className='font-semibold'>Category:</span> {item.category}
-                                            </>
-                                        )
-                                    }
-                                </div>
-                                <div className=''>
-                                    <div className='font-semibold'>Price: <span className='line-through'>${item.price.original}</span></div>
-                                    {
-                                        item.price.discount && (
-<div className='font-semibold'>Discount price: <span className=''>${item.price.original - (item.price.discount*item.price.original / 100)}</span></div>
-                                        )
-                                    }
-                                    
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <span className='font-semibold'>Instock:</span> {item.inStock === true ? <><div className='bg-green-500 px-1.5 py-1.5 rounded-full'></div></> : <><div className='bg-red-500 px-1.5 py-1.5 rounded-lg'></div></>}
-                                </div>
-                                <div>
-                                    <span className='font-semibold'>Tags:</span>
-                                    {item.tags.length > 0 ? (item.tags.map((tag, index) =>
-                                        <span className='bg-gray-400 text-sm px-2 py-0.5 rounded mr-1'>{tag}</span>
-                                    )) : "No Tags"}
-                                </div>
-                                <div>
-                                    <span className='font-semibold'>Date:</span> {item.addedDate}
-                                </div>
-                                <div>
-                                    {
-                                        item.reviews?.length > 0 && (
-                                            <>
-                                                <span>Reviews:</span> {
-                                                    item.reviews.map((item) => (
-                                                        <>
-                                                        <div>
-                                                            {item.user} 
-                                                        </div>
-                                                        <div> 
-                                                            {
-                                                          item.comment && (
-                                                          `comments ${item.comment} on this product`  
-                                                          )
-                                                        }
-                                                        </div>
-                                                       </>
-                                                    ))
-                                                }
-                                            </>
-                                        )
-                                    }
-                                </div>
-                            </div>
+                            <ProductCard productData={item} />
                         )
                     })
                 }
