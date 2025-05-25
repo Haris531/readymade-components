@@ -124,7 +124,7 @@ export default function MapProduct() {
                                     
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <span className='font-semibold'>Instock:</span> {item.inStock == true ? <><div className='bg-green-500 px-1.5 py-1.5 rounded-full'></div></> : <><div className='bg-red-500 px-1.5 py-1.5 rounded-lg'></div></>}
+                                    <span className='font-semibold'>Instock:</span> {item.inStock === true ? <><div className='bg-green-500 px-1.5 py-1.5 rounded-full'></div></> : <><div className='bg-red-500 px-1.5 py-1.5 rounded-lg'></div></>}
                                 </div>
                                 <div>
                                     <span className='font-semibold'>Tags:</span>

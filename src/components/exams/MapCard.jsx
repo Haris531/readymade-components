@@ -65,7 +65,7 @@ export default function MapCard() {
                                     Name: {item.name}
                                 </div>
                                 <div className='flex justify-between items-center'>
-                                    Isactive: {item.isActive == true ? <><div className='bg-green-500 text-white p-1.5 rounded-lg'>Yes</div></> : <><div className='bg-red-500 text-white'>No</div></>}
+                                    Isactive: {item.isActive === true ? <><div className='bg-green-500 text-white p-1.5 rounded-lg'>Yes</div></> : <><div className='bg-red-500 text-white'>No</div></>}
                                 </div>
                                 <div>
                                     {
