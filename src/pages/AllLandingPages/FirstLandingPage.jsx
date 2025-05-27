@@ -3,6 +3,8 @@ import HeroSection from '../../components/AllLandingPages/FirstLandingPage/HeroS
 import Navbar from '../../components/AllLandingPages/Navbar'
 import ServiceSection from '../../components/AllLandingPages/FirstLandingPage/ServiceSection'
 import AboutSection from '../../components/AllLandingPages/FirstLandingPage/AboutSection'
+import PerformUser from '../../components/AllLandingPages/FirstLandingPage/PerformUser'
+import SocialMedia from '../../components/AllLandingPages/FirstLandingPage/SocialMedia'
 
 export default function FirstLandingPage() {
   return (
@@ -11,6 +13,8 @@ export default function FirstLandingPage() {
     <HeroSection/>
     <ServiceSection />
     <AboutSection />
+    <PerformUser />
+    <SocialMedia />
     </>
   )
 }
