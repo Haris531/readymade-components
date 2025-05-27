@@ -5,6 +5,7 @@ import ServiceSection from '../../components/AllLandingPages/FirstLandingPage/Se
 import AboutSection from '../../components/AllLandingPages/FirstLandingPage/AboutSection'
 import PerformUser from '../../components/AllLandingPages/FirstLandingPage/PerformUser'
 import SocialMedia from '../../components/AllLandingPages/FirstLandingPage/SocialMedia'
+import ProcesSection from '../../components/AllLandingPages/FirstLandingPage/ProcesSection'
 
 export default function FirstLandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function FirstLandingPage() {
     <AboutSection />
     <PerformUser />
     <SocialMedia />
+    <ProcesSection />
     </>
   )
 }
