@@ -27,16 +27,16 @@ export default function PriceSection() {
         "Monthly Performance Report"
       ]
     },
-    {
+  {
       heading: "Starter",
       subHeading: "Ideal for small businesses.",
       cost: "$99.00/ Month",
       planHeading: "Plan Included",
-      paragraphs: [
+       paragraphs: [
         "Social Media Management (1 Platform)",
-        "10GB of storage",
-        "Email support",
-        "Help center access"
+        "5 Custom Graphics/Month",
+        "Basic SEO Optimization",
+        "Monthly Performance Report"
       ]
     },
 

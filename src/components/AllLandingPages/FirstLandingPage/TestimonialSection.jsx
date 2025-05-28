@@ -50,26 +50,7 @@ export default function TestimonialSection() {
 
     return (
         <>
-            {/* <div className='flex justify-center items-center h-screen bg-gray-100'>
-            <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md p-4 space-y-4">
-                <div className="flex items-center space-x-4">
-                    <img className="w-12 h-12 rounded-full object-cover"
-                        src="/LandpageImg/team-1.webp" alt="Profile" />
-                    <div>
-                        <h2 className="text-lg font-semibold text-gray-800">Sarah Johnson</h2>
-                        <p className="text-sm text-gray-500">E-commerce CEO</p>
-                    </div>
-                </div>
-                <div className="text-purple-600 hover:text-purple-800 cursor-pointer flex justify-start ">
-                    <FaStar />
-                </div>
-                <p className="text-lg  text-gray-700">
-                    Our online sales tripled within 6 months of working with this team.
-                    Their SEO and PPC strategies were perfectly tailored to our niche.
-                    The detailed monthly reports showed exactly where every dollar was going.
-                </p>   
-            </div>
-            </div> */}
+          
             <div className='min-h-screen bg-gray-100 py-10 px-4'>
                 <h1 className='text-3xl font-bold text-center mb-5'>What Our Clients Say</h1>
                 <div className='max-w-6xl mx-auto flex flex-wrap justify-center gap-6'>
