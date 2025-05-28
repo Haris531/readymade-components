@@ -6,6 +6,8 @@ import AboutSection from '../../components/AllLandingPages/FirstLandingPage/Abou
 import PerformUser from '../../components/AllLandingPages/FirstLandingPage/PerformUser'
 import SocialMedia from '../../components/AllLandingPages/FirstLandingPage/SocialMedia'
 import ProcesSection from '../../components/AllLandingPages/FirstLandingPage/ProcesSection'
+import PriceSection from '../../components/AllLandingPages/FirstLandingPage/PriceSection'
+import TestimonialSection from '../TestimonialSection'
 
 export default function FirstLandingPage() {
   return (
@@ -17,6 +19,8 @@ export default function FirstLandingPage() {
     <PerformUser />
     <SocialMedia />
     <ProcesSection />
+    <PriceSection />
+    <TestimonialSection />
     </>
   )
 }
