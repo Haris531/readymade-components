@@ -9,6 +9,8 @@ import ProcesSection from '../../components/AllLandingPages/FirstLandingPage/Pro
 import PriceSection from '../../components/AllLandingPages/FirstLandingPage/PriceSection'
 import TestimonialSection from '../../components/AllLandingPages/FirstLandingPage/TestimonialSection'
 import ContactSection from '../../components/AllLandingPages/FirstLandingPage/ContactSection'
+import SubscribeSection from '../../components/AllLandingPages/FirstLandingPage/SubscribeSection'
+import FooterSection from '../../components/AllLandingPages/FirstLandingPage/FooterSection'
 
 export default function FirstLandingPage() {
   return (
@@ -23,6 +25,8 @@ export default function FirstLandingPage() {
     <PriceSection />
     <TestimonialSection />
     <ContactSection />
+    <SubscribeSection />
+    <FooterSection />
     </>
   )
 }
