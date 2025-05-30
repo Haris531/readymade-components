@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default function PriceCard({ cardData }) {
+export default function PriceCard({ cardData, index }) {
 
 
     return (
         <>
-            <div className='flex  justify-center items-center h-screen'>
 
-                <div className="border-2 border-gray-200 rounded-2xl shadow-md p-6 w-72 bg-gray-50 hover:shadow-lg transition-all duration-300 space-y-5">
+
+                <div className={`shadow rounded-2xl my-2 px-6 w-80  ${index === 1 ? 'bg-white  shadow-xl scale-105 py-6 border border-gray-50' : 'bg-[#F3F4F6] py-4'} transition-all duration-300 space-y-5`}>
                     <div className="text-xl font-bold text-black">
-                        {cardData.heading}
+                        {cardData.heading} 
                     </div>
                     <div className="text-sm text-gray-500">
                         {cardData.subHeading}
@@ -25,14 +25,14 @@ export default function PriceCard({ cardData }) {
                     <div className="text-xl font-medium text-black  ">
                         {cardData.planHeading}
                     </div>
-                    <div className="text-lg font-semibold text-gray-800 space-y-1">
+                    <div className="text-base font-normal text-black space-y-3">
                         {cardData.paragraphs &&
                             cardData.paragraphs.map((line, index) => (
                                 <p key={index}>{line}</p>
                             ))}
                     </div>
                 </div>
-            </div>
+
 
         </>
     )

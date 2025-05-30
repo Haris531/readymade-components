@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa";
+import SectionHeading from './SectionHeading';
 
 const testimonialData = [
     {
@@ -52,7 +53,9 @@ export default function TestimonialSection() {
         <>
           
             <div className='min-h-screen bg-gray-100 py-10 px-4'>
-                <h1 className='text-3xl font-bold text-center mb-5'>What Our Clients Say</h1>
+                <div className='py-8 '>
+                <SectionHeading text="What Our Client Say" position={"text-center"} size={"text-3xl"} />
+                </div>
                 <div className='max-w-6xl mx-auto flex flex-wrap justify-center gap-6'>
                     {testimonialData.map((person, index) => (
                         <div key={index} className="bg-white rounded-xl shadow-md p-6 space-y-4 w-full sm:w-[48%] lg:w-[31%]">

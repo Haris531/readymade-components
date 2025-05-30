@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionHeading from './SectionHeading'
 
 export default function SubscribeSection() {
     return (
@@ -6,9 +7,9 @@ export default function SubscribeSection() {
 
             <div className="bg-gray-100 py-12 px-6 md:px-12  ">
                 <div className="max-w-3xl mx-auto text-center">
-                    <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-                        Digital Marketing Insights
-                    </h1>
+                    <div className='py-4'>
+                        <SectionHeading text="Digital Marketing Insights" position={"text-center"} size={"text-3xl"} />
+                    </div>
                     <p className="text-black text-base md:text-lg mb-8">
                         Subscribe to get weekly marketing tips, industry trends, and exclusive strategies to grow your business online.
                         Join 10,000+ marketers who stay ahead of the curve!

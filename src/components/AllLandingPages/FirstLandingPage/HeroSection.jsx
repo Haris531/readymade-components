@@ -23,7 +23,7 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <hr className='text-gray-300' />
-                <div className='flex justify-evenly items-center sm:flex-row flex-col gap-4 sm-gap-12  py-10'>
+                <div className='flex justify-evenly items-center flex-row flex-wrap gap-4 sm-gap-12  py-10'>
                     <img src="/TrustedLogos/google-logo.svg" alt="Logo 1" className="h-auto w-auto max-h-12" />
                     <img src="/TrustedLogos/facebook-logo.svg" alt="Logo 1" className="h-auto w-auto max-h-12" />
                     <img src="/TrustedLogos/linkedin-logo.svg" alt="Logo 1" className="h-auto w-auto max-h-12" />

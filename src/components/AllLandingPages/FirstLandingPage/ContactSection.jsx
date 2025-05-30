@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FiFacebook } from "react-icons/fi";
 import { LuLinkedin } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
+import SectionHeading from './SectionHeading';
 
 export default function ContactSection() {
     return (
@@ -11,8 +12,9 @@ export default function ContactSection() {
                 <div className="max-w-4xl mx-auto flex flex-col lg:flex-row gap-16">
                     <div className="flex-1 space-y-8">
                         <div className="space-y-6">
-                            <h1 className="text-3xl font-bold text-gray-800">Let's Talk</h1>
-                            <p className="text-gray-600 font-semibold max-w-md">
+                            <div>
+                                <SectionHeading text="Lets Talk" position={"text-start"} size={"text-3xl"} />
+                            </div>                            <p className="text-gray-600 font-semibold max-w-md">
                                 Have some big idea or brand to develop and need help? Then reach out —
                                 we'd love to hear about your project and provide help.
                             </p>
